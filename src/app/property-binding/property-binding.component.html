@@ -1,1 +1,9 @@
-<p>property-binding works!</p>
+<input id="meu-input" 
+    [value]="texto" 
+    [type]="texto" 
+    [disabled]="inputDisabled"
+    (input)="onInputChange($event)"
+/>
+
+<button (click)="activeButton()">ON/OFF</button>
+<button (click)="logarText()">Logar texto</button>
