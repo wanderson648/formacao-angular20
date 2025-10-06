@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
-import { TwoWayDataBindingComponent } from "./two-way-data-binding/two-way-data-binding.component";
-import { DinamicTextComponent } from "../components/style-binding/dinamic-text/dinamic-text.component";
-import { ProgressBarComponent } from "../components/style-binding/progress-bar/progress-bar.component";
-import { SquarePopupComponent } from "../components/style-binding/square-popup/square-popup.component";
+import { AcitveButtonComponent } from "../components/style-binding/acitve-button/acitve-button.component";
+import { InvalidInputComponent } from "../components/style-binding/invalid-input/invalid-input.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [SquarePopupComponent],
+  imports: [InvalidInputComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
